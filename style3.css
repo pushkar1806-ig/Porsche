@@ -1,0 +1,196 @@
+    *{
+      font-family: 'Montserrat', sans-serif;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      
+      background: #f8f9fa;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #222;
+    }
+
+.header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background-color: #fff;
+      position: relative;
+    }
+
+ /*   .left-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      font-size: 1.2rem;
+    }*/
+    .nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav .logo{
+    Font-weight: 600;
+    font-size: 1.5rem;
+  /*  margin-top: 5%;*/
+  }
+    .hamburger ,i{
+   /* margin-top: 10px;*/
+    font-size: 1.4rem;
+  }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h1, h2, h3 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #111;
+    }
+
+     .price {
+      font-size: 28px;  
+      font-weight: bold;
+      color: #111014;
+      margin: 10px 0;
+    }
+
+
+    .gallery {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      margin: 15px 0;
+  
+    }
+
+    .gallery img {
+    height: 140px;
+    width: 90%;
+    border-radius: 8px;
+    }
+  
+    .dealership-info {
+      text-align: center;
+     font-size: 1rem;
+     color: #333;
+     height: 100%;
+     max-width: 600px;
+     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+     
+    }
+
+    .equipment {
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #444;
+}
+    .details {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+.color-box {
+      display: grid;
+      align-items: center;
+    }
+
+ .square {
+      width: 60px;
+      height: 40px;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .black {
+      background-color: black;
+    }
+
+    .beige {
+      background-color: #f5f5dc; 
+      color: #333;
+      border: 1px solid #ccc;
+    }
+
+.text-info {
+      margin-left: 10px;
+    }
+
+    .label {
+      font-size: 14px;
+      color: #555;
+    }
+
+     .value {
+      font-size: 16px;
+      font-weight: bold;
+      color: #000;
+      margin-top: 4px;
+    }
+
+
+    
+
+  ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.card,details-list li,li {
+  background-color: #fafafa;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  padding: 10px 15px;
+  margin-bottom: 8px;
+}
+
+
+
+.vehicle-info {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.vehicle-image {
+  width: 500px;
+  height:500px;
+  justify-content:center;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.btn, button {
+  background-color: #100e09;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ footer {
+      text-align: center;
+      margin: 20px 0;
+      font-size: 14px;
+      }
